@@ -5,38 +5,43 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/MainLogInButton"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/buttons"
         android:text="Log In"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/MainSignInButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/MainSignInButton"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="100dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="168dp"
         android:text="Sign In"
+        android:backgroundTint="@color/buttons"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/MainLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:id="@+id/imageView2"
+        android:layout_width="153dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/health_sync_svgrepo_com"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="188dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

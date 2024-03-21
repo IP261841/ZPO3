@@ -2,6 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
+=======
+    android:background="@color/background"
+>>>>>>> 49c474b (First commit)
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -42,6 +46,7 @@
 
     <Spinner
         android:id="@+id/ProfileGenderSpinner"
+<<<<<<< HEAD
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -82,6 +87,83 @@
 
     <Button
         android:id="@+id/ProfileCalculateButton"
+=======
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileUserNameText" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <Spinner
+        android:id="@+id/ProfileHightSpinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileGenderSpinner" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <Spinner
+        android:id="@+id/ProfileWeightSpinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileHightSpinner" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="429dp" />
+    <Spinner
+        android:id="@+id/ProfileAgeSpinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileWeightSpinner" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <Button
+        android:id="@+id/ProfileCalculateButton"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="@color/buttons"
+>>>>>>> 49c474b (First commit)
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginBottom="40dp"
@@ -93,6 +175,12 @@
 
     <Button
         android:id="@+id/ProfileNonediabeticButton"
+<<<<<<< HEAD
+=======
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="@color/buttons"
+>>>>>>> 49c474b (First commit)
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:layout_marginStart="64dp"
@@ -103,6 +191,12 @@
 
     <Button
         android:id="@+id/ProfileDiabeticButton"
+<<<<<<< HEAD
+=======
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="@color/buttons"
+>>>>>>> 49c474b (First commit)
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:layout_marginEnd="60dp"
@@ -112,10 +206,21 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageButton
+<<<<<<< HEAD
         android:id="@+id/ProfileMenuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/arrow_down_float"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
+=======
+        android:id="@+id/menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/menu_svgrepo_com"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+
+>>>>>>> 49c474b (First commit)
 </androidx.constraintlayout.widget.ConstraintLayout>
