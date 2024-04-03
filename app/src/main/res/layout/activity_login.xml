@@ -2,12 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-<<<<<<< HEAD
-=======
-    android: android:background="@color/background"
->>>>>>> 49c474b (First commit)
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/LogInEmailInput"
@@ -40,10 +39,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginBottom="8dp"
         android:text="Email"
-<<<<<<< HEAD
-=======
         android:textStyle="bold"
->>>>>>> 49c474b (First commit)
         app:layout_constraintBottom_toTopOf="@+id/LogInEmailInput"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -60,20 +56,13 @@
 
     <Button
         android:id="@+id/LogInLogInButton"
-<<<<<<< HEAD
-        android:layout_width="200dp"
-        android:layout_height="50sp"
         android:layout_marginBottom="300dp"
-        android:text="Button"
-=======
         android:layout_width="250dp"
         android:layout_height="70dp"
-        android:layout_marginBottom="300dp"
         android:text="Log in"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:backgroundTint="@color/buttons"
->>>>>>> 49c474b (First commit)
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

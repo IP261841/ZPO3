@@ -2,12 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-<<<<<<< HEAD
-=======
-    android:background="@color/background"
->>>>>>> 49c474b (First commit)
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -46,12 +45,11 @@
 
     <Spinner
         android:id="@+id/ProfileGenderSpinner"
-<<<<<<< HEAD
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ProfileUserNameText" />
 
@@ -61,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ProfileGenderSpinner" />
 
@@ -69,30 +67,29 @@
         android:id="@+id/ProfileWeightSpinner"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ProfileHightSpinner" />
+        tools:layout_editor_absoluteY="472dp"
+        tools:ignore="MissingConstraints" />
 
     <Spinner
         android:id="@+id/ProfileAgeSpinner"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ProfileWeightSpinner" />
+        tools:layout_editor_absoluteY="427dp" />
 
     <Button
         android:id="@+id/ProfileCalculateButton"
-=======
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="272dp"
+        android:text="Calculate"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ProfileUserNameText" />
 
@@ -105,15 +102,6 @@
         tools:layout_editor_absoluteX="76dp"
         tools:layout_editor_absoluteY="333dp" />
 
-    <Spinner
-        android:id="@+id/ProfileHightSpinner"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.651"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ProfileGenderSpinner" />
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -121,17 +109,8 @@
         android:text="Height:"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="382dp" />
+        tools:layout_editor_absoluteY="381dp" />
 
-    <Spinner
-        android:id="@+id/ProfileWeightSpinner"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.651"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ProfileHightSpinner" />
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -139,16 +118,8 @@
         android:text="Weight:"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="429dp" />
-    <Spinner
-        android:id="@+id/ProfileAgeSpinner"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.651"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ProfileWeightSpinner" />
+        tools:layout_editor_absoluteY="427dp" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -158,69 +129,22 @@
         tools:layout_editor_absoluteX="74dp"
         tools:layout_editor_absoluteY="468dp" />
 
-    <Button
-        android:id="@+id/ProfileCalculateButton"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:backgroundTint="@color/buttons"
->>>>>>> 49c474b (First commit)
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="40dp"
-        android:text="Calculate"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/ProfileNonediabeticButton"
-<<<<<<< HEAD
-=======
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:backgroundTint="@color/buttons"
->>>>>>> 49c474b (First commit)
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginBottom="20dp"
-        android:text="None diabetic"
-        app:layout_constraintBottom_toTopOf="@+id/ProfileCalculateButton"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/ProfileDiabeticButton"
-<<<<<<< HEAD
-=======
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:backgroundTint="@color/buttons"
->>>>>>> 49c474b (First commit)
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="20dp"
-        android:text="Diabetic"
-        app:layout_constraintBottom_toTopOf="@+id/ProfileCalculateButton"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <ImageButton
-<<<<<<< HEAD
-        android:id="@+id/ProfileMenuButton"
+    <CheckBox
+        android:id="@+id/checkDiabetic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/arrow_down_float"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-=======
+        android:text="Diabetic"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <ImageButton
         android:id="@+id/menu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/menu_svgrepo_com"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="11dp" />
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="5dp"
+        tools:ignore="MissingConstraints" />
 
-
->>>>>>> 49c474b (First commit)
 </androidx.constraintlayout.widget.ConstraintLayout>
