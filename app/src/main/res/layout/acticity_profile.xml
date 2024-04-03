@@ -5,8 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".MainActivity">
+    android:background="@color/background">
 
     <ImageView
         android:id="@+id/imageView"
@@ -51,7 +50,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ProfileUserNameText" />
+        app:layout_constraintTop_toBottomOf="@+id/ProfileUserNameText"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Spinner
         android:id="@+id/ProfileHightSpinner"
@@ -61,7 +61,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ProfileGenderSpinner" />
+        app:layout_constraintTop_toBottomOf="@+id/ProfileGenderSpinner"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Spinner
         android:id="@+id/ProfileWeightSpinner"
@@ -70,8 +71,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="472dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="472dp" />
 
     <Spinner
         android:id="@+id/ProfileAgeSpinner"
@@ -80,6 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteY="427dp" />
 
     <Button
@@ -100,7 +102,8 @@
         android:text="Gender:"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="333dp" />
+        tools:layout_editor_absoluteY="333dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -109,7 +112,8 @@
         android:text="Height:"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="381dp" />
+        tools:layout_editor_absoluteY="381dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -118,7 +122,8 @@
         android:text="Weight:"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="427dp" />
+        tools:layout_editor_absoluteY="427dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
@@ -127,7 +132,8 @@
         android:text="Age:"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="468dp" />
+        tools:layout_editor_absoluteY="468dp"
+        tools:ignore="MissingConstraints" />
 
 
     <CheckBox
@@ -136,15 +142,16 @@
         android:layout_height="wrap_content"
         android:text="Diabetic"
         tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="512dp" />
+        tools:layout_editor_absoluteY="512dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/menu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/menu_svgrepo_com"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
         tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="5dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="5dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

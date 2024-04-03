@@ -31,7 +31,8 @@
         android:layout_height="416dp"
         android:background="@drawable/border"
         tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="122dp">
+        tools:layout_editor_absoluteY="122dp"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/imageView3"
@@ -65,7 +66,7 @@
             app:srcCompat="@drawable/meal_15_svgrepo_com" />
 
         <TextClock
-            android:id="@+id/textClock2"
+            android:id="@+id/godzina_posilek2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
@@ -96,8 +97,5 @@
             android:layout_marginTop="365dp"
             app:srcCompat="@drawable/meal_15_svgrepo_com" />
     </RelativeLayout>
-
-</RelativeLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
