@@ -96,7 +96,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ProfileUserNameText" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textGender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gender:"
@@ -106,7 +106,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textHeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Height:"
@@ -116,7 +116,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textWeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Weight:"
@@ -126,7 +126,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Age:"
